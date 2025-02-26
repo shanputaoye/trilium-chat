@@ -112,8 +112,6 @@ If you want to use your DeepSeek, you need to set the values of `requestUrls.com
 	"autoSave": true,
 	"systemPrompt": "",
 	"checkUpdates": true
-![Trilium-chat](https://github.com/user-attachments/assets/d0bf8924-f4b9-4cf3-bdd2-f8e82b2daf36)
-
 }
 ```
 ### Use with Ollama
