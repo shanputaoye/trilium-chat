@@ -113,11 +113,8 @@ If you want to use your DeepSeek, you need to set the values of `requestUrls.com
 	"systemPrompt": "",
 	"checkUpdates": true
 }
-![Trilium-chat](https://github.com/user-attachments/assets/08cee796-0b97-4ef5-b7b2-6ee6f6e812f4)
-
 
 ### Use with Ollama
-
 If you want to use your own locally hosted [Ollama](https://github.com/ollama/ollama), you need to set the values of `requestUrls.completion` to `https://<your-endpoint>/api/chat`, set `stream` to `false`, and set `model` to whichever model you want to use from your Ollama. You should keep the rest of the settings as if they were pointed to ChatGpt. An example of my settings can be seen below:
 ```json
 {
