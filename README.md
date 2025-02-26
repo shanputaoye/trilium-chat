@@ -73,6 +73,49 @@ Options is stored in a JSON note with `#CHAT_OPTIONS ` label.
 | systemPrompt  | Background prompt used for system messages, e.g., set it to: "You are a helpful assistant for Trilium note-taking." | ‘’                                                           |
 | checkUpdates  | Whether to automatically check for updates. If enabled, a dot will be displayed on the face icon when an update is available. | true                                                         |
 
+### Use with DeepSeek
+If you want to use your DeepSeek, you need to set the values of `requestUrls.completion` to `https://api.deepseek.com/v1/chat/completions`, set `stream` to `true`, and set `model` to `deepseek-chat`.You need to keep all other settings unchanged; Otherwise, the application shortcut key "Alt+Q" will not be able to bring up the dialog window.An example of my settings can be seen below:
+```json
+{
+	"viewWidth": 400,
+	"engine": "chatgpt",
+	"apiKey": "XXx",
+	"requestUrls": {
+		"completion": "https://api.deepseek.com/v1/chat/completions"
+	},
+	"engineOptions": {
+		"model": "deepseek-chat",
+		"max_tokens": 2500,
+		"temperature": 0.3,
+		"top_p": 1,
+		"presence_penalty": 0.5,
+		"frequency_penalty": 0.5,
+		"stream": true,
+		"n": 1
+	},
+	"shortcut": {
+		"toggle": "Alt+Q",
+		"hide": "Esc"
+	},
+	"faces": [
+		"bx-smile",
+		"bx-wink-smile",
+		"bx-face",
+		"bx-happy-alt",
+		"bx-cool",
+		"bx-laugh",
+		"bx-upside-down"
+	],
+	"colors": [
+		"var(--muted-text-color)"
+	],
+	"autoSave": true,
+	"systemPrompt": "",
+	"checkUpdates": true
+}
+![image](https://github.com/user-attachments/assets/31e699ff-c2d0-4a2c-bb70-362be602dce8)
+
+
 ### Use with Ollama
 
 If you want to use your own locally hosted [Ollama](https://github.com/ollama/ollama), you need to set the values of `requestUrls.completion` to `https://<your-endpoint>/api/chat`, set `stream` to `false`, and set `model` to whichever model you want to use from your Ollama. You should keep the rest of the settings as if they were pointed to ChatGpt. An example of my settings can be seen below:
