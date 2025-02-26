@@ -115,6 +115,7 @@ If you want to use your DeepSeek, you need to set the values of `requestUrls.com
 }
 
 ### Use with Ollama
+
 If you want to use your own locally hosted [Ollama](https://github.com/ollama/ollama), you need to set the values of `requestUrls.completion` to `https://<your-endpoint>/api/chat`, set `stream` to `false`, and set `model` to whichever model you want to use from your Ollama. You should keep the rest of the settings as if they were pointed to ChatGpt. An example of my settings can be seen below:
 ```json
 {
@@ -142,7 +143,6 @@ If you want to use your own locally hosted [Ollama](https://github.com/ollama/ol
 	"systemPrompt": "",
 	"checkUpdates": true
 }
-```
 ### Allowing Authorization header for use with Ollama
 You may also need to modify the Ollama Nginx configuration with the following, to allow it to accept the `Authorization` header (you can see if this is needed by inspecting the traffic from Trilium to your Ollama):
 ```json
@@ -155,7 +155,6 @@ server {
 	add_header Access-Control-Allow-Headers "Authorization";
     }
 }
-```
 
 #### Allowing CORS for use with Ollama
 If you recieve an error regarding CORS, such as the following, you may need to update your Ollama's `OLLAMA_ORIGINS` environment variable, as outlined in this [ollama/ollama](https://github.com/ollama/ollama/issues/669#issuecomment-1783903239) issue. You can set it to something like `OLLAMA_ORIGINS=*`.  
