@@ -72,7 +72,7 @@ Options is stored in a JSON note with `#CHAT_OPTIONS ` label.
 | autoSave      | Whether to automatically save the conversation history, if set to false, a save command will be displayed in the command list. | true                                                         |
 | systemPrompt  | Background prompt used for system messages, e.g., set it to: "You are a helpful assistant for Trilium note-taking." | ‘’                                                           |
 | checkUpdates  | Whether to automatically check for updates. If enabled, a dot will be displayed on the face icon when an update is available. | true                                                         |
-
+```
 ### Use with DeepSeek
 If you want to use your DeepSeek, you need to set the values of `requestUrls.completion` to `https://api.deepseek.com/v1/chat/completions`, set `stream` to `true`, and set `model` to `deepseek-chat`.You need to keep all other settings unchanged; Otherwise, the application shortcut key "Alt+Q" will not be able to bring up the dialog window.An example of my settings can be seen below:
 ```json
@@ -113,7 +113,7 @@ If you want to use your DeepSeek, you need to set the values of `requestUrls.com
 	"systemPrompt": "",
 	"checkUpdates": true
 }
-
+```
 ### Use with Ollama
 
 If you want to use your own locally hosted [Ollama](https://github.com/ollama/ollama), you need to set the values of `requestUrls.completion` to `https://<your-endpoint>/api/chat`, set `stream` to `false`, and set `model` to whichever model you want to use from your Ollama. You should keep the rest of the settings as if they were pointed to ChatGpt. An example of my settings can be seen below:
@@ -143,6 +143,7 @@ If you want to use your own locally hosted [Ollama](https://github.com/ollama/ol
 	"systemPrompt": "",
 	"checkUpdates": true
 }
+```
 ### Allowing Authorization header for use with Ollama
 You may also need to modify the Ollama Nginx configuration with the following, to allow it to accept the `Authorization` header (you can see if this is needed by inspecting the traffic from Trilium to your Ollama):
 ```json
