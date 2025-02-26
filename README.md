@@ -144,9 +144,9 @@ If you want to use your own locally hosted [Ollama](https://github.com/ollama/ol
 	"checkUpdates": true
 }
 ```
-### Allowing Authorization header for use with Ollama
+#### Allowing Authorization header for use with Ollama
 You may also need to modify the Ollama Nginx configuration with the following, to allow it to accept the `Authorization` header (you can see if this is needed by inspecting the traffic from Trilium to your Ollama):
-```json
+```
 server {
     listen 80;
     server_name example.com;  # Replace with your domain or IP
@@ -156,6 +156,7 @@ server {
 	add_header Access-Control-Allow-Headers "Authorization";
     }
 }
+```
 
 #### Allowing CORS for use with Ollama
 If you recieve an error regarding CORS, such as the following, you may need to update your Ollama's `OLLAMA_ORIGINS` environment variable, as outlined in this [ollama/ollama](https://github.com/ollama/ollama/issues/669#issuecomment-1783903239) issue. You can set it to something like `OLLAMA_ORIGINS=*`.  
