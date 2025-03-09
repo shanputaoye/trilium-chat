@@ -1,7 +1,7 @@
----
+
 ## 引言
-<p style="text-indent: 2em;"> 根据一项调查显示，超过 **60%的销售人员** 表示他们在查找历史数据和协调团队沟通上花费了过多时间，导致实际销售工作的时间不足 **40%**。这些问题不仅降低了工作效率，还影响了客户满意度和企业竞争力。因此，亟需一种更高效、更系统的销售项目管理工具来解决这些痛点。  
- 	1. ** 信息分散 **：客户需求、项目进度、合同文件等数据分散在多个 Excel 表格和邮件中，查找关键信息耗时费力。  
+根据一项调查显示，超过 **60%的销售人员** 表示他们在查找历史数据和协调团队沟通上花费了过多时间，导致实际销售工作的时间不足 **40%**。这些问题不仅降低了工作效率，还影响了客户满意度和企业竞争力。因此，亟需一种更高效、更系统的销售项目管理工具来解决这些痛点。  
+    1. ** 信息分散 **：客户需求、项目进度、合同文件等数据分散在多个 Excel 表格和邮件中，查找关键信息耗时费力。  
     2. **沟通低效**：团队成员通过邮件或即时通讯工具讨论项目进展，重要信息容易被淹没，导致决策延迟或失误。  
     3. **缺乏标准化流程**：每个销售人员使用不同的模板记录项目信息，导致数据格式混乱，难以进行统一分析和跟踪。  
     4. **知识流失**：项目结束后，相关经验和文档未能有效归档，新员工接手时需从头摸索。
@@ -24,8 +24,6 @@
             └── 技术方案
         ```
     - 这种结构清晰直观，便于快速定位和管理复杂项目。
-
----
 
 #### 2. 搜索和标签功能
 - **功能说明**：Trilium 支持全文搜索和标签分类，用户可以通过关键词或标签快速找到所需内容。
@@ -141,7 +139,7 @@
 
 ## **一、 日记模块**
 - **每日日记**：记录当天工作内容、待办事项和网络剪藏。
-	![日记](C:\3Software\TriliumNextNotes-v0.92.3-beta-windows-x64\应用数据\销售管理系统图片资源\ToDay Note.png)
+	![日记](https://github.com/shanputaoye/trilium-chat/blob/main/Trilium-PM/ToDay%20Note.png)
 - **周总结**：每周整理日记内容，提取关键信息并归档。  
 
 ~~~
@@ -244,22 +242,22 @@
 - **每日日记**：记录当天工作内容、待办事项和网络剪藏。
 - **周总结**：每周整理日记内容，提取关键信息并归档。  
     	
-	![日记](C:\3Software\TriliumNextNotes-v0.92.3-beta-windows-x64\应用数据\销售管理系统图片资源\ToDay Note.png)
+	![日记](https://github.com/shanputaoye/trilium-chat/blob/main/Trilium-PM/ToDay%20Note.png)
     
 ### 1.2 项目管理模块
 - **客户立项模板**：标准化客户立项流程。  
     
 - **招标项目模板**：管理招投标全流程。  
- 	![日记](C:\3Software\TriliumNextNotes-v0.92.3-beta-windows-x64\应用数据\销售管理系统图片资源\招投标信息管理模板.png)   
+ 	![日记](https://github.com/shanputaoye/trilium-chat/blob/main/Trilium-PM/%E6%8B%9B%E6%8A%95%E6%A0%87%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF.png)   
 - **重点项目模板**：对重点项目进行全过程管控。
-	![日记](C:\3Software\TriliumNextNotes-v0.92.3-beta-windows-x64\应用数据\销售管理系统图片资源\项目管理模板-1.jpg)  
+	![日记](https://github.com/shanputaoye/trilium-chat/blob/main/Trilium-PM/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%A8%A1%E6%9D%BF-1.jpg)  
     
 ### 1.3 业务经费管理模块
 - **支出记录**：记录重点项目的经费使用情况。
 
 ### 1.4 Web剪藏库
 - **按主题分类**：收藏与销售相关的网络素材，并通过双链归档到相关项目中。
-	![日记](C:\3Software\TriliumNextNotes-v0.92.3-beta-windows-x64\应用数据\销售管理系统图片资源\网页剪藏-today.jpg) 
+	![日记](https://github.com/shanputaoye/trilium-chat/blob/main/Trilium-PM/%E7%BD%91%E9%A1%B5%E5%89%AA%E8%97%8F-today.jpg) 
 ### 1.5 个人成长模块
 - **学习笔记**：记录 AI、产品技术、行业趋势等内容。
 
@@ -453,7 +451,7 @@
 ```
 ##预览  
 
-   ![日记](C:\3Software\TriliumNextNotes-v0.92.3-beta-windows-x64\应用数据\销售管理系统图片资源\trilium-chat.jpg)
+   ![日记](https://github.com/shanputaoye/trilium-chat/blob/main/Trilium-PM/trilium-chat.jpg)
 
 -   创建一个JS前端笔记，然后将发布文件“trilium-chat.js”中的内容复制到该笔记中，或者导入“trilium-chat.js”文件。  
 
